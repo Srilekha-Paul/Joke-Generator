@@ -2,9 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
 }
 body{
-    background-color: yellow;
+    background-color: rgb(78, 78, 72);
 }
 .wrapper{
     width: 80vmin;
@@ -20,5 +21,24 @@ span{
     display: block;
     text-align: center;
     font-size: 100px;
-    
+}
+p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin:30px;
+}
+button{
+    display: block;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 60px;      
+   
+
 }
